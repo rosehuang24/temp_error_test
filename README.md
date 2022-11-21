@@ -20,4 +20,4 @@ Execution halted
 
 
 ### the result html file if I used my customized script:
-```     SK_chr27.summary.html ```
+```     result/SK_chr27.summary.html ```

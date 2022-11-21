@@ -162,10 +162,7 @@ for (k in seq_along(bcf.files)) {
 	noNA.pca.file <- file.path( opt$outdir, paste0(chrom.name,"noNA.pca.csv") )
 	noNA.region.file <- file.path( opt$outdir, paste0(chrom.name,"noNA.regions.csv") )
 	write.csv( all.pca.noNA.no0, file=noNA.pca.file, row.names=FALSE )
-	write.csv( all.r.p.noNA.no0[,1:3], file=noNA.region.file, row.names=FALSE )
-
-
-
+	write.csv( all.r.p.noNA.no0[,1:3], file=noNA.region.file, row.names=FALSE )						
         all.regions <- all.r.p.noNA.no0[,1:3]
         all.lengths <- c(all.lengths, nrow(all.pca.noNA.no0))
     }

@@ -17,3 +17,7 @@ Error in cmdscale(pc.distmat[!na.inds, !na.inds], k = opt$nmds) :
 Calls: cbind -> cmdscale
 Execution halted
 ```
+
+
+### the result html file if I used my customized script:
+```     SK_chr27.summary.html ```

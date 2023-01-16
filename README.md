@@ -2,8 +2,8 @@
 
 ```
 ./run_lostruct.R \
-        -t bp -s 1000 \
-        -I SK_pop.txt \
+        -t bp -s 10 \
+        -I pop.txt \
         -i <temp_error_test> \
         -o <temp_error_test>
 ```
